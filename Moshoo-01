@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: SlateBlue; text-decoration: inherit; font-color: white; background-blend-mode: color-burn; color: auto;">
+<title>Moshoo's Site</title>
+<img src="Moshoo'sBlog.png" alt="Moshoo's Blog Logo">
+<br><br>
+<div style="text-align: left;">
+<font style="font-size: 40px;">Moshoo's Blogs</font><br>
+<nav style="text-align: center; background-color: lightgray;"> 
+	<ul id="Pages" style="font-size: 22px;">
+	<a href="">HOME</a><br>
+    <a href="">BLOGS</a><br>
+    <a href="">ABOUT US</a><br>
+    <br>
+	</ul>
+</nav>
+</div>
+<div style="text-align: center;">
+
+	<h1 style="background-color: lightgray">Importance of Cyber Security</h1>
+	<img src="https://media.istockphoto.com/photos/digital-security-concept-picture-id1289956604">
+	<p style=""><strong><h3>WHAT IS CYBER SECURITY??</h3></strong> 
+		<img src="https://images.unsplash.com/photo-1569012871812-f38ee64cd54c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" height="200" width="250" align="right">
+<p>To understand the term cyber security you first need to understand what “cyber” actually means? In simple words cyber is anything related to the internet. Whether it is a website, social media platform or some software or app. If they need the internet it comes in terms of cyber. And security is anything that these platforms need. Like if some website or application has a vulnerability an intruder can easily exploit it and can hack their system. So companies hire cyber security researchers to check for bugs and vulnerabilities in their website and applications and systems.</p>
+
+<p><b><h3>WHO ARE CYBER SECURITY RESEARCHERS?</h3></b></p>
+
+<p>They are genies (just kiddin’). They are hackers but not the bad ones (OKAY?!!!). They are good hackers mostly called Pen Testers or Cyber Security Researchers. They check the systems, websites and applications for vulnerabilities (bugs) and if they find a bug then instead of taking advantage of the system they report it to the corresponding company, person or team and then get paid.</p>
+
+<p>There are different types of cyber security but web security, android and iOS security ,network security, cloud security and IoT security these are the most common ones.</p>
+
+<p><b><h3>IMPORTANCE OF CYBER SECURITY:</h3></b></p>
+
+<p>Do you know there is a cyber-attack every 39 seconds! There are over 2,200 hacking attempts each day that are successful. More than 300,000 pieces of malware are created daily to harm websites and systems. 69% of attacks are based on phishing and social engineering. 51% experience denial of service (DOS). 53% of healthcare organizations have experienced data breach in the past few years and the figure is increasing each day.
+<img src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" height="200" width="250" align="right">
+<p><b><u>I want to quote Ginni Rommety in this regard. He said: “Cybercrime is the greatest threat to every company in the world.”</u></b></p>
+
+So you can say cyber security is like oxygen which is necessary for our systems and software all the time. Because no single system, website or applications is safe from the hands of hackers. So we need cyber security researchers in our companies that keep checking our systems and software from time to time. And if they find any bug or vulnerability they present the solution of the flaw and ask developers to patch it.</p>
+
+<p><strong><h3>Skills Needed to be a Cyber Security Researcher:</h3></strong></p>
+
+<p>If you wanna be a cyber security researcher so you should know about computer networking, operating system, have a basic or prior knowledge of programming and basic hardware knowledge at least. And if you have adept at these then you are good to go :) </p>
+</p>
+</div>
+
+</body>
