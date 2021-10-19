@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Online C-Mart</title>
+	<link rel="stylesheet" type="text/css" href="123.css">
+</head>
+<body style="background-color: MediumSeaGreen; link="#000" alink="#017bf">
+	<br><br><br>
+	<div align="center">
+		<h1 face="Lato" size="6" align="center">C-MART</h1>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div>
+			<a href="SignUp.html" style="text-align: right;">Sign Up</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="Signin.html" style="text-align: right;">Sign In</a>
+		</div>
+
+		<br><br>
+
+		<nav face="cinzel" size="4" color="black">
+			<a href="home.html">Home</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="home.html">Laptop</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="home.html">Processors</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="home.html">Graphic Cards</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="home.html">Printers</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="aboutus.html">About Us</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="cart.html">Cart</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</nav>
+	</div>
+
+	<br><br><br>
+
+			<div class="topnav" align="bottom left" style="background-color: black">
+				<font face="cinzel" size="2" color="white">All</font>
+				<input type="text" placeholder="Search..">
+			</div>
+
+	<br>
+
+	<div>
+		<marquee direction=down color=white>
+			<font style="text-align: center;">
+				<h1>Welcome to C-Mart</h1>
+			</font>
+		</marquee>
+	</div>	
+
+		<br><br>
+
+	<h3 align="center">
+		<font face="Lato" color="#000" size="5">
+			We Serve According to Your Choice
+		</font>
+		<p>Place your order now. <a href="registration.html">Click here</a> to signup.</p>
+	</h3>
+		
+<br><br><br>
+
+<div align="center">	
+<img src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" height="200" width="250"  alt="laptop">
+<p style="direction: right"> Dell Laptop</p>
+<p> 1,00,000/-PKR</p>
+</div>
+<br><br>
+
+<div align="center">	
+<img src="https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" height="200" width="250" align="center" alt="laptop">
+<p> MACBOOK</p>
+<p> 5,00,000/-PKR</p>
+</div>
+<br><br>
+
+<div align="center">	
+<img src="https://images.unsplash.com/photo-1589561084283-930aa7b1ce50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80" height="200" width="250" align="center" alt="laptop">
+<p> HP Laptop</p>
+<p> 1,50,000/-PKR</p>
+</div>
+<br><br>
+<div align="center">	
+<img src="https://i5.walmartimages.com/asr/d25a585d-cd81-44fc-97fe-8074c112f2ef.fb82102c15d0cb95944b91b672434050.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF" height="200" width="250" align="center" alt="laptop">
+<p> HP Laptop</p>
+<p> 1,50,000/-PKR</p>
+</div>
+
+<p><a href="registration.html">signup / signin</a> to add products to your cart.</p>
+
+
+</body>
+</html>
