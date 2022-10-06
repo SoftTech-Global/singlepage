@@ -1,49 +1,46 @@
-
 @@ -0,0 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-<link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
   <style>
-    body{
-    background-image: url("bg.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-weight: solid;
-    font-family: serif;
-}
-h1{
-    color: rgb(211, 12, 201); 
-    text-align: center;
-    font-size: 120px;
-}
-p{
-    color: #fff;
-    text-align: center;
-    font-size: 55px;
-    padding: 400px;
-    background-color: rgba(0,0,0, 0.3)
-}
-h3{
-    color: rgb(211, 12, 201);
-    text-align: center;
-    padding: 80px;
-    font-size: 40px;
-}
+    body {
+      background-image: url("bg.gif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-weight: solid;
+      font-family: serif;
+    }
+    h1 {
+      color: rgb(211, 12, 201);
+      text-align: center;
+      font-size: 120px;
+    }
+    p {
+      color: #fff;
+      text-align: center;
+      font-size: 55px;
+      padding: 400px;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    h3 {
+      color: rgb(211, 12, 201);
+      text-align: center;
+      padding: 80px;
+      font-size: 40px;
+    }
   </style>
-<body>
-
-<h1>My First Website</h1>
-<br>
-<p>Warm Welcome!!
-    <br> My name is Ali Mehar, im front end developer
-<br> Welcome to our Website
- <br> This is the most amazing Website.</p>
- <h3>
-    Copyright © | All Rights Reserved. 2021
- </h3>
-
-</body>
+  <body>
+    <h1>My First Website</h1>
+    <br />
+    <p>
+      Warm Welcome!! <br />
+      My name is Ali Mehar, im front end developer <br />
+      Welcome to our Website <br />
+      This is the most amazing Website.
+    </p>
+    <h3>Copyright © | All Rights Reserved. 2021</h3>
+  </body>
 </html>
