@@ -37,10 +37,8 @@
 <body>
 	<br>
    <h1 class="head1">Business Cards</h1>
-   <table class="mrg">
 
-   	<tr >
-   		<td style="border: 4px solid #2046b4;" class="nnn"><div style="width: 100%">
+<div style="width: 100%">
 	<div class="mysize">
 	<div class="card mb-3 mycolor">
  
@@ -60,8 +58,8 @@
   </div>
 </div>
 </div>
-</div></td>
-   		<td style="border: 4px solid #6a6262;" class="nnn"><div style="width: 100%">
+</div>
+   	<div style="width: 100%">
 <div class="card bg-dark text-white siz ">
   <img src="https://media1.picsearch.com/is?wcWniwfjGebraHVsoAtzEf-rJsT2TY9EpwRhk6qcLDQ&height=191" class="card-img " alt="...">
   <div class="card-img-overlay myc">
@@ -80,14 +78,7 @@
       </div>
     
   </div>
-</div></div></td>
+</div></div>
    		
-   		
-   	</tr>
-   	
-
-
-   </table>
-
 </body>
 </html>

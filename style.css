@@ -1,36 +1,34 @@
-h2{
-  color: #457b9d!important;
+h2 {
+  color: #457b9d !important;
 }
 
-.custom-btn{
-  background-color: #457b9d!important;
+.custom-btn {
+  background-color: #457b9d !important;
   color: #fff;
 }
 
-header{
+header {
   background-color: #1d3557;
-
 }
-header a{
+header a {
   color: #fff;
 }
 /* slider */
-.customslider{
+.customslider {
   height: 400px;
   overflow: hidden;
 }
 
 /* services */
-.services .row .card{
+.services .row .card {
   background-color: #1d3557;
   color: #fff;
 }
 
-.services .container .row{
+.services .container .row {
   justify-content: center;
 }
 
-
-footer{
+footer {
   background-color: #1d3557;
 }

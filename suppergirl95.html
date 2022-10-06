@@ -1,506 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>An Effectivr CV</title>
+    <link rel="stylesheet" href="cv.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> An Effectivr CV</title>
-    <link rel="stylesheet" href="cv.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    
     <style>
-    
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200&display=swap");
 
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "poppin", sans-serif;
+      }
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'poppin', sans-serif;
-}
+      body {
+        background-color: cadetblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
 
+      .container {
+        position: relative;
+        background-color: cornsilk;
+        width: 100%;
+        max-width: 1000px;
+        min-height: 1000px;
+        margin: 45px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        box-shadow: 0 35px 55px rgba(0, 0, 0, 0.5);
+      }
 
-body
-{
-   background-color: cadetblue;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   min-height: 100vh;
-}
+      .container .left-side {
+        position: relative;
+        background-color: rgb(32, 40, 48);
+        padding: 40px;
+      }
 
-.container
-{
+      .left-text {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 40px;
+      }
 
-    position: relative;
-    background-color: cornsilk;
-    width: 100%;
-    max-width: 1000px;
-    min-height: 1000px;
-    margin: 45px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.5);
+      .left-text .proimg {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border-radius: 80%;
+        overflow: hidden;
+      }
 
-}
+      .left-text .proimg img {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
 
-.container  .left-side
-{
-    position: relative;
-    background-color: rgb(32, 40, 48);
-    padding: 40px; 
-}
+      .left-text h2 {
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-size: 1.5em;
+        font-weight: 600;
+        line-height: 1.4em;
+      }
 
-.left-text
-{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-bottom: 1px solid #fff;
-    padding-bottom: 40px;
-}
+      .contact {
+        border-bottom: 1px solid #fff;
+      }
 
-.left-text .proimg
-{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    border-radius: 80%;
-    overflow: hidden;
+      .title {
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600;
+        padding-top: 20px;
+        margin-bottom: 20px;
+      }
 
-}
+      .contact ul {
+        position: relative;
+      }
 
-.left-text .proimg img
-{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+      .contact ul li {
+        position: relative;
+        list-style: none;
+        margin: 20px;
+        font-weight: 300px;
+      }
 
+      .contact ul li .icon {
+        margin-right: 10px;
+        color: rgb(44, 106, 143);
+      }
 
-.left-text h2
-{
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 20px;
-    font-size: 1.5em;
-    font-weight: 600;
-    line-height: 1.4em;
-}
+      .contact ul li .text {
+        margin-right: 10px;
+        color: #fff;
+      }
 
-.contact
-{
-    
-    border-bottom: 1px solid #fff;
-}
+      .educatuon ul {
+        margin-bottom: 20px;
+        color: #fff;
+      }
 
-.title
-{
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
-    padding-top: 20px;
-    margin-bottom: 20px;
+      .educatuon ul li {
+        margin: 20px;
+      }
 
-}
+      .educatuon ul li h4 {
+        margin-bottom: 5px;
+        font-weight: 500px;
+        color: rgb(97, 104, 136);
+      }
 
-.contact ul
-{
-    position: relative;
-}
+      .educatuon ul li h5:nth-child(2) {
+        color: #fff;
+        font-weight: 300px;
+        margin-bottom: 5px;
+      }
 
-.contact ul li
-{
-    position: relative;
-    list-style: none;
-    margin: 20px;
-    font-weight: 300px;
-    
-}
+      .language .percent {
+        position: relative;
+        width: 100%;
+        height: 6px;
+        background-color: gray;
+        display: block;
+        margin-top: 5px;
+      }
 
-.contact ul li .icon
-{
-    margin-right: 10px;
-    color: rgb(44, 106, 143);    
-} 
+      .language .percent div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-color: rgb(54, 66, 236);
+      }
 
-.contact ul li .text
-{
-    margin-right: 10px;
-    color: #fff;  
-} 
+      .container .main-side {
+        position: relative;
+        background-color: rgb(206, 231, 255);
+        padding: 40px;
+      }
 
+      .about {
+        margin-bottom: 50px;
+      }
 
-.educatuon  ul
-{
-   margin-bottom: 20px;
-   color: #fff;
-}
+      .about :last-child {
+        margin-bottom: 0px;
+      }
 
-.educatuon  ul li
-{
-    margin: 20px;
-    
-    
-}
+      .title2 {
+        color: rgb(50, 74, 99);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+      }
 
-.educatuon  ul li h4
-{
+      p {
+        color: rgb(76, 76, 92);
+      }
 
-    margin-bottom: 5px;
-    font-weight: 500px;
-    color: rgb(97, 104, 136);
-    
-}
+      .about .box {
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0;
+      }
 
-.educatuon  ul li h5:nth-child(2)
-{
-    color: #fff;
-    font-weight: 300px;
-    margin-bottom: 5px;
-    
-}
+      .about .box .year {
+        min-width: 150px;
+      }
 
+      .about .box .year h5 {
+        text-transform: uppercase;
+        color: grey;
+        font-weight: 600;
+      }
 
-.language  .percent
-{
-    position: relative;
-    width: 100%;
-    height: 6px;
-    background-color: gray;
-    display: block;
-    margin-top: 5px;
-}
+      .about .box .text h4 {
+        text-transform: uppercase;
+        color: rgb(26, 166, 221);
+        font-size: 15px;
+      }
 
-.language  .percent div
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background-color:rgb(54, 66, 236);   
-}
+      .Skills .box {
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        justify-content: center;
+        align-items: center;
+      }
 
+      .Skills .box h4 {
+        text-transform: uppercase;
+        color: gray;
+        font-weight: 500px;
+      }
 
+      .Skills .box .percent {
+        position: relative;
+        width: 100%;
+        height: 5px;
+        background-color: gray;
+      }
 
-.container  .main-side
-{
-    position: relative;
-    background-color: rgb(206, 231, 255);
-    padding: 40px;
-}
+      .Skills .box .percent div {
+        position: absolute;
+        top: 0;
+        left: o;
+        height: 100%;
+        background-color: rgb(54, 66, 236);
+      }
 
-.about
-{
-    margin-bottom: 50px;
-}
+      .Interests ul {
+        display: grid;
+      }
 
-.about :last-child
-{
-    margin-bottom: 0px;
-}
+      .Interests ul li {
+        list-style: none;
+        color: gray;
+        font-weight: 500;
+        margin: 5px 0;
+      }
 
-
-.title2
-{
-    color: rgb(50, 74, 99) ;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-}
-
-p
-
-{
-    color: rgb(76, 76, 92);
-}
-
-
-.about .box
-{
-    display: flex;
-    flex-direction: row;
-    margin: 20px 0;
-
-}
-
-
-.about .box .year
-{
-    min-width: 150px;
-}
-
-.about .box .year h5
-{
-    text-transform: uppercase;
-    color: grey;
-    font-weight: 600;
-
-}
-
-
-.about .box .text h4
-{
-    text-transform: uppercase;
-    color: rgb(26, 166, 221);
-    font-size: 15px;
-}
-
-
-.Skills .box
-{
-    position: relative;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.Skills .box h4
-{
-    text-transform: uppercase;
-    color: gray;
-    font-weight: 500px;
-}
-
-.Skills .box .percent
-{
-position: relative;
-width: 100%;
-height: 5px;
-background-color: gray;
-}
-
-
-.Skills .box .percent div
-{
-    position: absolute;
-    top: 0;
-    left: o;
-    height:100%;
-    background-color: rgb(54, 66, 236);
-}
-
-.Interests ul 
-{
-    display: grid;
-}
-
-.Interests ul li
-{
-   list-style: none;
-   color:gray;
-   font-weight: 500;
-   margin: 5px 0;
-}
-
-
-.Interests ul li .fa
-{
-    color: rgb(44, 106, 143) ;
-    margin-right: 15px;
-}
-    
-    
+      .Interests ul li .fa {
+        color: rgb(44, 106, 143);
+        margin-right: 15px;
+      }
     </style>
-    
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
+      <div class="left-side">
+        <div class="left-text">
+          <div class="proimg">
+            <img src="/Romaisa/download (1).jpg" alt="There is an erroe" />
+          </div>
 
-        <div class="left-side">
-
-            <div class="left-text">
-                <div class="proimg">
-                    <img src="/Romaisa/download (1).jpg" alt="There is an erroe">
-                </div>
-
-                <h2>Suppergirl <br>
-                    <span>Web Developer</span>
-                </h2>
-            </div>
-
-            <div class="contact">
-                <h3 class="title"> contact Information</h3>
-
-                <ul>
-                    <li>
-                        <span class="icon"><i class="fa fa-phone"></i></span>
-                        <span class="text">+92 345 2375258</span>
-                    </li>
-
-                    <li>
-                        <span class="icon"><i class="fa fa-envelope-o"></i></span>
-                        <span class="text">suppergirl@gmail.com</span>
-                    </li>
-
-                    <li>
-                        <span class="icon"><i class="fa fa-globe"></i></span>
-                        <span class="text">www.leatherJacket.com</span>
-                    </li>
-
-                    <li>
-                        <span class="icon"><i class="fa fa-map-marker"></i></span>
-                        <span class="text">Pasrur, Sialkot, Pakistan</span>
-                    </li>
-
-                </ul>
-            </div>
-
-
-            <div class="contact educatuon">
-                <h3 class="title"> Education</h3>
-
-                <ul>
-                    <li>
-                        <h4>2014 - 2018</h4>
-                        <h5>BS informaton technology </h5>
-                        <h5>virtual university</h5>
-                    </li>
-
-
-                    <li>
-                        <h4>2012 - 2014</h4>
-                        <h5>Intermidiat</h5>
-                        <h5>GC</h5>
-                    </li>
-
-
-                    <li>
-                        <h4>2010 - 2012</h4>
-                        <h5>Matericulation Degree</h5>
-                        <h5>Govt High school</h5>
-                    </li>
-
-                </ul>
-            </div>
-
-            <div class="contact language">
-                <h3 class="title"> language</h3>
-
-                <ul>
-                    <li>
-                        <span class="text">English</span>
-                        <div class="percent">
-                            <div style="width:55%"></div>
-                        </div>
-                    </li>
-
-
-                    <li>
-                        <span class="text">urdu</span>
-                        <div class="percent">
-                            <div style="width:90%"></div>
-                        </div>
-                    </li>
-
-                </ul>
-
-            </div>
+          <h2>
+            Suppergirl <br />
+            <span>Web Developer</span>
+          </h2>
         </div>
 
-        <div class="main-side">
+        <div class="contact">
+          <h3 class="title">contact Information</h3>
 
-            <div class="about">
-                <h2 class="title2">Profile</h2>
-                <p>I always inspire by technology. Technology especially in computer itrect me.Thats why I done my 
-                    Intermidiate in computer science, and recieve Basic IT lettricy degree after done 3 month deploma.
-                    Now I studed in Information Technology(IT).<br><br>
-                   I want ot be an expert web Developer. It's my passion, my future target and my goal. I do my goods to achieve
-                   my goal.
-                </p>
-            </div>
+          <ul>
+            <li>
+              <span class="icon"><i class="fa fa-phone"></i></span>
+              <span class="text">+92 345 2375258</span>
+            </li>
 
-            <div class="about">
-                <h2 class="title2">Experience</h2>
-                <div class="box">
-                    <div class="year">
-                        <h5> 2021-Present</h5>
-                        <h5> Company-Name</h5>
-                    </div>
-                    <div class="text">
-                        <h4> Web Desioner</h4>
-                        <p>I'm Front-End web Developer with over 6 month experience in web designing <br>
-                        I always ready to adapt the changing deadlines to meet the customer's need. </p>
-                    </div>
-                </div>
+            <li>
+              <span class="icon"><i class="fa fa-envelope-o"></i></span>
+              <span class="text">suppergirl@gmail.com</span>
+            </li>
 
+            <li>
+              <span class="icon"><i class="fa fa-globe"></i></span>
+              <span class="text">www.leatherJacket.com</span>
+            </li>
 
-                <div class="box">
-                    <div class="year">
-                        <h5> 2019-2021</h5>
-                        <h5> Company-Name</h5>
-                    </div>
-                    <div class="text">
-                        <h4> IT manager</h4>
-                        <p>During my job as an IT manager, I managed all most all the thing very well. I was appritiated 
-                            by my senior many time because of my good work and polite behavior. I got award of best IT manager
-                            form my company. I also improve my IT skill, and learn many things during may job
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="about Skills">
-                <h2 class="title2">Professional Skills</h2>
-                <div class="box">
-                    <h4>HTML5</h4>
-                    <div class="percent">
-                        <div style="width: 95%;"></div>
-                    </div>
-                </div>
-                <div class="box">
-                    <h4>CSS3</h4>
-                    <div class="percent">
-                        <div style="width: 85%;"></div>
-                    </div>
-                </div>
-                <div class="box">
-                    <h4>javascript</h4>
-                    <div class="percent">
-                        <div style="width: 75%;"></div>
-                    </div>
-                </div>
-                <div class="box">
-                    <h4>Photoshop</h4>
-                    <div class="percent">
-                        <div style="width: 60%;"></div>
-                    </div>
-                </div>
-                <div class="box">
-                    <h4>Illustrator</h4>
-                    <div class="percent">
-                        <div style="width: 75%;"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="about Interests">
-                <h2 class="title2">Interests</h2>
-                <ul>
-                    <li><i class="fa fa-gamepad"></i>Gaming</li>
-                    <li><i class="fa fa-book"></i>Reading</li>
-                    <li><i class="fa fa-cutlery"></i>cooking</li>
-                    <li><i class="fa fa-paint-brush"></i>painting</li>
-                </ul>
-            </div>
-
+            <li>
+              <span class="icon"><i class="fa fa-map-marker"></i></span>
+              <span class="text">Pasrur, Sialkot, Pakistan</span>
+            </li>
+          </ul>
         </div>
+
+        <div class="contact educatuon">
+          <h3 class="title">Education</h3>
+
+          <ul>
+            <li>
+              <h4>2014 - 2018</h4>
+              <h5>BS informaton technology</h5>
+              <h5>virtual university</h5>
+            </li>
+
+            <li>
+              <h4>2012 - 2014</h4>
+              <h5>Intermidiat</h5>
+              <h5>GC</h5>
+            </li>
+
+            <li>
+              <h4>2010 - 2012</h4>
+              <h5>Matericulation Degree</h5>
+              <h5>Govt High school</h5>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact language">
+          <h3 class="title">language</h3>
+
+          <ul>
+            <li>
+              <span class="text">English</span>
+              <div class="percent">
+                <div style="width: 55%"></div>
+              </div>
+            </li>
+
+            <li>
+              <span class="text">urdu</span>
+              <div class="percent">
+                <div style="width: 90%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-side">
+        <div class="about">
+          <h2 class="title2">Profile</h2>
+          <p>
+            I always inspire by technology. Technology especially in computer
+            itrect me.Thats why I done my Intermidiate in computer science, and
+            recieve Basic IT lettricy degree after done 3 month deploma. Now I
+            studed in Information Technology(IT).<br /><br />
+            I want ot be an expert web Developer. It's my passion, my future
+            target and my goal. I do my goods to achieve my goal.
+          </p>
+        </div>
+
+        <div class="about">
+          <h2 class="title2">Experience</h2>
+          <div class="box">
+            <div class="year">
+              <h5>2021-Present</h5>
+              <h5>Company-Name</h5>
+            </div>
+            <div class="text">
+              <h4>Web Desioner</h4>
+              <p>
+                I'm Front-End web Developer with over 6 month experience in web
+                designing <br />
+                I always ready to adapt the changing deadlines to meet the
+                customer's need.
+              </p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="year">
+              <h5>2019-2021</h5>
+              <h5>Company-Name</h5>
+            </div>
+            <div class="text">
+              <h4>IT manager</h4>
+              <p>
+                During my job as an IT manager, I managed all most all the thing
+                very well. I was appritiated by my senior many time because of
+                my good work and polite behavior. I got award of best IT manager
+                form my company. I also improve my IT skill, and learn many
+                things during may job
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about Skills">
+          <h2 class="title2">Professional Skills</h2>
+          <div class="box">
+            <h4>HTML5</h4>
+            <div class="percent">
+              <div style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>CSS3</h4>
+            <div class="percent">
+              <div style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>javascript</h4>
+            <div class="percent">
+              <div style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Photoshop</h4>
+            <div class="percent">
+              <div style="width: 60%"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Illustrator</h4>
+            <div class="percent">
+              <div style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about Interests">
+          <h2 class="title2">Interests</h2>
+          <ul>
+            <li><i class="fa fa-gamepad"></i>Gaming</li>
+            <li><i class="fa fa-book"></i>Reading</li>
+            <li><i class="fa fa-cutlery"></i>cooking</li>
+            <li><i class="fa fa-paint-brush"></i>painting</li>
+          </ul>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
