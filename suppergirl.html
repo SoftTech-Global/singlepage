@@ -84,6 +84,21 @@
         width: 80%;
         padding: 2px;
       }
+      /* Secondary button class styling */
+      .secondary-btn{
+        border: 5px solid #f4f4f4;
+        background-color: rgba(235, 193, 174, 0.685);
+        width: 65%;
+        color: #1c1b10;
+        font-weight: 700;
+        font-size: 1rem;
+        border-radius: 5px;
+        height: 2.5rem;
+        text-transform: uppercase;
+      }
+      .secondary-btn:hover{
+        cursor: pointer;
+      }
     </style>
   </head>
   <body>
@@ -147,19 +162,14 @@
         <br />
 
         <legend>Address</legend>
-        <input
-          type="text"
-          name="email"
-          id="email"
-          placeholder="Address"
-          required
-        /><br />
+        <textarea name="address" id="address" cols="30" rows="10">city </textarea>
+        <br />
         <br />
 
         <!--<legend> Password</legend>
    <input type="text" name="password" id="password" placeholder=" Password" required><br> <br> -->
 
-        <input type="button" name="submit" id="submit" value="Submit" /><br />
+        <input class="secondary-btn" type="button" name="submit" id="submit" value="Submit" /><br />
         <br /><br />
 
         <div class="jacket img" style="height: 200px, 200px">
