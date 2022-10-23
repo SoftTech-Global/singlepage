@@ -23,6 +23,9 @@
     opacity: .9;
     
 }
+input{
+    background-color: wheat;
+}
 
 .bodyM{
     background-color: white;
@@ -170,12 +173,10 @@ li a:hover, .dropdown:hover, .dropbtn:hover{
     background-color: indigo;
     display: block;
     color: white;
-    width: 100%;
-    
+    width: 100%; 
     text-align: center;
     padding-bottom: 5px;
     padding-top: 5px;
-    margin-top: 100%;
     bottom: 0px;
 }
 
@@ -202,80 +203,136 @@ li a:hover, .dropdown:hover, .dropbtn:hover{
     
 }
 
+/* main-sec section class styling */
+.main-sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right{
+    padding: 1rem;
+    /* padding-left: 2rem; */
+    flex: 1;
+}
+
+.login, .contact-header{
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(186, 144, 225);
+    border-radius: 10px;
+}
+
+.secondary-btn{
+    text-transform: uppercase;
+    margin: 0.5rem;
+    border-style: none; 
+    border-radius: 2rem; 
+    width: 30%; 
+    height: 45px; 
+    color: white; 
+    background-color: rgba(130, 47, 190, 0.71);
+}
+textarea{
+    background-color: wheat;
+    border-radius: 10px;
+}
+.secondary-btn:hover{
+    cursor: pointer;
+    color: rgba(141, 21, 227, 0.71);
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+
     </style>
     
 </head>
 
 <body>
+    <header class="nav-bar">
+        <!-- TODO adding login panel on left -->
+        <!-- TODO shifting contact us panel on right side  -->
+        <div>
+        <caption>
+            <p style="text-align: center; margin-top: -100px;">For more Visit? <a href="https://wa.me/923467318886">WhattsApp: +923467318886</a></caption></p>
+        </div>
+            <br/>
+        <div>
+            <marquee style="margin-top: 50px; font-size: large; color: darkblue;">Welcome to our website! Developed by Scorpio-BS</marquee>
+        </div>
     
-    <div>
-    <caption>
-        <p style="text-align: center; margin-top: -100px;">For more Visit? <a href="https://wa.me/923467318886">WhattsApp: +923467318886</a></caption></p>
-    </div>
-        <br/>
-    <div>
-        <marquee style="margin-top: 50px; font-size: large; color: darkblue;">Welcome to our website! Developed by Scorpio-BS</marquee>
-    </div>
-
-
-    <div>
-        
-        <ul>
-            
-            <li class = "dropdown">
-                <a class="dropbtn" href="index.html">Home</a>
-            </li>
-            
-            <li class = "dropdown">
-                <a class = "dropbtn" href="">Vu Past Papers</a>
-                <div class="dropdown-content">
-                    <a href="finalterm.html" >Final Term</a>
-                    <a href="" >Mid Term</a></div>
-            </li>
-            
-            <li class = "dropdown">
-                <a class = "dropbtn" href="">Handouts</a>
-                <div class="dropdown-content"><a href="pdfhandouts.html" >PDF Handouts</a>
-                    <a href="" >PPT Slides</a>
-                </div> 
-            </li>
-
-            <li class = "dropdown">
-                <a class = "dropbtn" href="">Images</a>
-                <div class="dropdown-content"><a href="" >Gallery</a></div> 
-            </li>
-
-            <li class = "dropdown">
-                <a class = "dropbtn" href="">Skills</a>
-                <div class="dropdown-content"><a href="" >Languages</a></div> 
-            </li>
-
-            <li class = "dropdown">
-                <a class = "dropbtn" href="sigin.html">Sign in</a> 
-            </li>
-        </ul>
-
-    </div>
     
-    <div style="margin-top: 40px;">
-        <text style = "font-size: 20px; color: indigo; font-weight: bold; margin-right: 5px;">User Name</text>
-        <input style = "border-style: ridge; border-radius: 2rem;font-size: 20px; color: indigo;" id = "userName" type = "text">  
-        </input>
-        <br><br>
-        <text style = "font-size: 20px; color: indigo; margin-top: 0px; font-weight: bold; margin-right: 18px;">Password</text>
-        <input  style = "border-style: ridge; border-radius: 2rem;font-size: 20px; color: indigo; margin-right: 10px;" id = "password" type="password"></input>
-        <button style="border-style: ridge; border-radius: 2rem; width: 60px; height: 25px; color: white; background-color: indigo;" onclick=login_clicked()>Login</button>
-    </div>
-    <form class = "contact">
-:     <h2 style="color:indigo">Contact Us</h2>
-        <label for="name" style = "font-size: 20px; color: indigo; font-weight: bold; margin-right: 5px;">Name</label>
-        <input style = "margin-top:5px;margin-bottom: 15px;border-style: ridge; border-radius: 2rem;font-size: 20px; color: indigo; margin-top: 0px; font-weight: bold; margin-right: 18px;" name = "name" type = "text" placeholder="Enter Your Name..."></input>
-        <br/><label style = "margin-top:5px;margin-bottom: 10px; font-size: 20px; color: indigo; font-weight: bold; margin-right: 5px;" for="Email">Email</label>
-        <input style = "margin-top:5px;margin-bottom: 15px;border-style: ridge; border-radius: 2rem;font-size: 20px; color: indigo; margin-top: 0px; font-weight: bold; margin-right: 18px;"  name = "email" type = "text" placeholder="Enter Your Email"></input>
-        <br/>
-        <input id = "text1" type="text" placeholder="Enter Your Text..."></input>
-        <br/><input  id = "sub" type="submit" text= "Submit">
-    </form>
+        <div>
+            
+            <ul>
+                
+                <li class = "dropdown">
+                    <a class="dropbtn" href="index.html">Home</a>
+                </li>
+                
+                <li class = "dropdown">
+                    <a class = "dropbtn" href="">Vu Past Papers</a>
+                    <div class="dropdown-content">
+                        <a href="finalterm.html" >Final Term</a>
+                        <a href="" >Mid Term</a></div>
+                </li>
+                
+                <li class = "dropdown">
+                    <a class = "dropbtn" href="">Handouts</a>
+                    <div class="dropdown-content"><a href="pdfhandouts.html" >PDF Handouts</a>
+                        <a href="" >PPT Slides</a>
+                    </div> 
+                </li>
+    
+                <li class = "dropdown">
+                    <a class = "dropbtn" href="">Images</a>
+                    <div class="dropdown-content"><a href="" >Gallery</a></div> 
+                </li>
+    
+                <li class = "dropdown">
+                    <a class = "dropbtn" href="">Skills</a>
+                    <div class="dropdown-content"><a href="" >Languages</a></div> 
+                </li>
+    
+                <li class = "dropdown">
+                    <a class = "dropbtn" href="sigin.html">Sign in</a> 
+                </li>
+            </ul>
+    
+        </div>
+    </header>
+    
+    <section class="main-sec">
+        <!-- login panel on left side  -->
+        <div class="left">
+            <div class="login">Login Section</div>
+            <div style="margin-top: 40px;">
+                <text style = "font-size: 20px; color: indigo; font-weight: bold; margin-right: 5px;">User Name</text>
+                <input style = "border-style: ridge; border-radius: 2rem;font-size: 20px; color: indigo;" id = "userName" type = "text">  
+                </input>
+                <br><br>
+                <text style = "font-size: 20px; color: indigo; margin-top: 0px; font-weight: bold; margin-right: 18px;">Password</text>
+                <input  style = "border-style: ridge; border-radius: 2rem;font-size: 20px; color: indigo; margin-right: 10px;" id = "password" type="password"></input><br>
+                <button class="login-btn secondary-btn" onclick=login_clicked()>Login</button>
+            </div>
+        </div>
+    
+        <!-- contact us panel on right side  -->
+        <div class="right">
+            <div class="contact-header">Contact Us</div>
+            <form class = "contact">
+                <label for="name" style = "font-size: 20px; color: indigo; font-weight: bold; margin-right: 5px;">Name</label>
+                <input style = "margin-top:5px;margin-bottom: 15px;border-style: ridge; border-radius: 2rem;font-size: 20px; color: indigo; margin-top: 0px; font-weight: bold; margin-right: 18px;" name = "name" type = "text" placeholder="Enter Your Name..."></input>
+                <br/><label style = "margin-top:5px;margin-bottom: 10px; font-size: 20px; color: indigo; font-weight: bold; margin-right: 5px;" for="Email">Email</label>
+                <input style = "margin-top:5px;margin-bottom: 15px;border-style: ridge; border-radius: 2rem;font-size: 20px; color: indigo; margin-top: 0px; font-weight: bold; margin-right: 18px;"  name = "email" type = "text" placeholder="Enter Your Email"></input>
+                <br/>
+                <h2  >Write your question</h2>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Text..."></textarea>
+                <!-- <input id = "text1" type="text" placeholder="Enter Your Text..."></input> -->
+                <br/><input  class = "sub secondary-btn" type="submit" text= "Submit">
+            </form>
+        </div>
+    </section>
     <br/>
     <br/>
     <br/>
