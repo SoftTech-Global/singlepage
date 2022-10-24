@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+</head>
+<body>
+
+<style>
+    .log{
+        height: 80px;
+        width:250px;
+    }
+    .bgg{
+    background-image: url('./vendor/img/reg-pic.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+   }
+   
+</style>
+<div class="bgg">
+<div class="my-5"></div>
+<div class="container d-flex justify-content-center mt-5">
+<div class="card p-4 col-6 my-5 shadow">       
+<img src="./vendor/img/reg-logo.png" class="log"> 
+        <h1 class="text-center"><b>Sign Up<b></h1>
+        <form action="" method="Post">
+            <div class="mb-2">
+                <label for="" class="form-label"><b>User Name<b></label>
+                <input class="form-control" type="text" name="username" placeholder="Enter User Name" required>
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Email</label>
+                <input class="form-control" type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Cell</label>
+                <input class="form-control" type="text" name="cell" placeholder="Cell" required>
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Address</label>
+                <input class="form-control" type="text" name="address" placeholder="Address" required>
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Password</label>
+                <input class="form-control" type="password" name="pass1" placeholder="password" required>
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Re-Password</label>
+                <input class="form-control" type="password" name="pass2" placeholder="re-password" required>
+            </div>
+
+            <input class="form-control btn btn-primary my-2" type="submit" value="Signup" name="btn">
+        </form>
+    </div>
+    </div></div>
+</body>
+</html>
