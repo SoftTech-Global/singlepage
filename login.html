@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+
+<style>
+    .logo
+   {
+       height: 120px;
+   }
+
+   .bgg{
+   background-image: url('./vendor/img/happybaby.jpg');
+        background-repeat: no-repeat;
+        /* background-size: cover;    */
+   }
+</style>
+<div class="my-5"></div>
+<div class="bgg">
+<div>
+    <div>
+        <div class="container d-flex justify-content-end">
+
+            <div class="card p-3 col-lg-4 my-5 shadow ">
+            <img src="./vendor/img/loginlogo.png" class="logo"> 
+                <div>
+                    <h1 class="text-center">Sign In</h1>
+                    <form action="" method="post">
+                        <div class="mb-3">
+                            <label for="" class="form-label"><b>Email<b></label>
+                            <input type="email" class="form-control" name="uemail" id="" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="">Password</label>
+                            <input type="password" class="form-control" name="pass1" id="" required>
+                        </div>
+                        <div class="mb-3">
+                            <a class="link" href="forgot_pass.php">Forgot Password</a>
+                        </div>
+                        <input type="submit" class="form-control btn btn-outline-primary mb-4  rounded-pill" value="SignIn" name="btn">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
