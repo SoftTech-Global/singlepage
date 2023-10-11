@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body style="background-color: SlateBlue; text-decoration: inherit; font-color: white; background-blend-mode: color-burn; color: auto;">
-<title>Moshoo's Site</title>
+<title>Moshoo's Web</title>
 <img src="Moshoo'sBlog.png" alt="Moshoo's Blog Logo">
 <br><br>
 <div style="text-align: left;">
@@ -9,8 +9,8 @@
 <nav style="text-align: center; background-color: lightgray;"> 
 	<ul id="Pages" style="font-size: 22px;">
 	<a href="">HOME</a><br>
-    <a href="">BLOGS</a><br>
-    <a href="">ABOUT US</a><br>
+    <a href="">Blogs</a><br>
+    <a href="">About Us</a><br>
     <br>
 	</ul>
 </nav>
@@ -19,7 +19,7 @@
 
 	<h1 style="background-color: lightgray">Importance of Cyber Security</h1>
 	<img src="https://media.istockphoto.com/photos/digital-security-concept-picture-id1289956604">
-	<p style=""><strong><h3>WHAT IS CYBER SECURITY??</h3></strong> 
+	<p style=""><strong><h3>WHAT Is Cyber Security??</h3></strong> 
 		<img src="https://images.unsplash.com/photo-1569012871812-f38ee64cd54c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" height="200" width="250" align="right">
 <p>To understand the term cyber security you first need to understand what “cyber” actually means? In simple words cyber is anything related to the internet. Whether it is a website, social media platform or some software or app. If they need the internet it comes in terms of cyber. And security is anything that these platforms need. Like if some website or application has a vulnerability an intruder can easily exploit it and can hack their system. So companies hire cyber security researchers to check for bugs and vulnerabilities in their website and applications and systems.</p>
 
@@ -41,7 +41,7 @@ So you can say cyber security is like oxygen which is necessary for our systems 
 
 <p>If you wanna be a cyber security researcher so you should know about computer networking, operating system, have a basic or prior knowledge of programming and basic hardware knowledge at least. And if you have adept at these then you are good to go :) </p>
 </p>
-<p>Thank You For reading </p>
+<p>Thank For reading </p>
 </p>
 </div>
 
