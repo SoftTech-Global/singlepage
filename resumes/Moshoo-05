@@ -19,7 +19,8 @@ else{
 <h1 class="text text-capitalize text-center text-primary">Track Order</h1>
 <form method="post">
     <table align="center">
-        <tr>
+<thead>
+      <tr>
             <td>
                 Enter Tracking  ID:
             </td>
@@ -28,11 +29,17 @@ else{
                 
             </td>
         </tr>
-        <tr>
+</thead>
+
+<tbody>
+    <tr>
             <td colspan="2">
                 <input type="submit" name="done" value="Track Order " class="btn btn-primary">
             </td>
         </tr>
+</tbody>  
+
+    
     </table>
 </form>
 <?php
@@ -49,14 +56,14 @@ $row=mysqli_num_rows($run);
   ?>
       <table align="center" style="margin-top:10px;width:80%;background-color: darkgray" class="table table-striped table-bordered">
           <caption style="border: 1px solid gray;background-color: lightpink"><b>Order Tracking List</b></caption>
-          <tr >
+<thead>
+      <tr >
        <th>S.No</th>
        <th>Tracking ID</th>
        <th>Location</th>
-       
-      
-       
        </tr>
+    </thead>
+
         <?php
         $i=1;
         while($data=mysqli_fetch_assoc($run))
