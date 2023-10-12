@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Page Title</title>
+    <title>Learing web fundamental</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <style>
@@ -37,10 +37,10 @@
     <br />
     <p>
       Warm Welcome!! <br />
-      My name is Ali Mehar, im front end developer <br />
+      My name is Ali Mehar, im frontend developer <br />
       Welcome to our Website <br />
-      This is the most amazing Website.
+      i build my first index web
     </p>
-    <h3>Copyright © | All Rights Reserved. 2021</h3>
+    <h3>Copyright © | All Rights Reserved. 2023</h3>
   </body>
 </html>
